@@ -1,0 +1,13 @@
+int x = 10;
+int y = 20;
+int total = x + y * 2;
+
+if (total > 40) {
+print(total);
+} else {
+print(x);
+}
+
+while (x < 20) {
+x = x + 1;
+}

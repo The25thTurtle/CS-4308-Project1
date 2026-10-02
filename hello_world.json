@@ -1,0 +1,218 @@
+[
+    {
+        "type": "KEYWORD",
+        "value": "int"
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "x"
+    },
+    {
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "type": "INTEGER",
+        "value": "10"
+    },
+    {
+        "type": "SEMICOLON",
+        "value": ";"
+    },
+    {
+        "type": "KEYWORD",
+        "value": "int"
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "y"
+    },
+    {
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "type": "INTEGER",
+        "value": "20"
+    },
+    {
+        "type": "SEMICOLON",
+        "value": ";"
+    },
+    {
+        "type": "KEYWORD",
+        "value": "int"
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "total"
+    },
+    {
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "x"
+    },
+    {
+        "type": "PLUS",
+        "value": "+"
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "y"
+    },
+    {
+        "type": "MULTIPLY",
+        "value": "*"
+    },
+    {
+        "type": "INTEGER",
+        "value": "2"
+    },
+    {
+        "type": "SEMICOLON",
+        "value": ";"
+    },
+    {
+        "type": "KEYWORD",
+        "value": "if"
+    },
+    {
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "total"
+    },
+    {
+        "type": "GREATER_THAN",
+        "value": ">"
+    },
+    {
+        "type": "INTEGER",
+        "value": "40"
+    },
+    {
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "type": "KEYWORD",
+        "value": "print"
+    },
+    {
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "total"
+    },
+    {
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "type": "SEMICOLON",
+        "value": ";"
+    },
+    {
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    },
+    {
+        "type": "KEYWORD",
+        "value": "else"
+    },
+    {
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "type": "KEYWORD",
+        "value": "print"
+    },
+    {
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "x"
+    },
+    {
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "type": "SEMICOLON",
+        "value": ";"
+    },
+    {
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    },
+    {
+        "type": "KEYWORD",
+        "value": "while"
+    },
+    {
+        "type": "LEFT_PAREN",
+        "value": "("
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "x"
+    },
+    {
+        "type": "LESS_THAN",
+        "value": "<"
+    },
+    {
+        "type": "INTEGER",
+        "value": "20"
+    },
+    {
+        "type": "RIGHT_PAREN",
+        "value": ")"
+    },
+    {
+        "type": "LEFT_BRACE",
+        "value": "{"
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "x"
+    },
+    {
+        "type": "ASSIGN",
+        "value": "="
+    },
+    {
+        "type": "IDENTIFIER",
+        "value": "x"
+    },
+    {
+        "type": "PLUS",
+        "value": "+"
+    },
+    {
+        "type": "INTEGER",
+        "value": "1"
+    },
+    {
+        "type": "SEMICOLON",
+        "value": ";"
+    },
+    {
+        "type": "RIGHT_BRACE",
+        "value": "}"
+    }
+]

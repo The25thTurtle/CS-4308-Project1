@@ -1,0 +1,52 @@
+SCL Subset Grammar
+==================
+
+program = { declaration | statement } ;
+
+declaration = "int" identifier "=" expression ";" ;
+
+statement = assignment
+          | print_statement
+          | if_statement
+          | while_statement ;
+
+assignment = identifier "=" expression ";" ;
+
+print_statement = "print" "(" expression ")" ";" ;
+
+if_statement = "if" "(" condition ")" "{"
+               { statement }
+               "}"
+               [ "else" "{"
+               { statement }
+               "}" ] ;
+
+while_statement = "while" "(" condition ")" "{"
+                  { statement }
+                  "}" ;
+
+condition = expression comparison_operator expression ;
+
+comparison_operator = "=="
+                    | "!="
+                    | "<"
+                    | ">"
+                    | "<="
+                    | ">=" ;
+
+expression = term { ("+" | "-") term } ;
+
+term = factor { ("*" | "/") factor } ;
+
+factor = identifier
+       | integer
+       | "(" expression ")" ;
+
+identifier = letter { letter | digit | "_" } ;
+
+integer = digit { digit } ;
+
+letter = "A"..."Z"
+       | "a"..."z" ;
+
+digit = "0"..."9" ;
